@@ -1,10 +1,11 @@
 /* --------- Defaults ---------*/
 
 body, ul, li, img, p {
-    color: #333;
+    color: #e0e0e0;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background-color: #121212;
 }
 li {
     list-style-type: none;
@@ -12,7 +13,7 @@ li {
 }
 a, i {
     text-decoration: none;
-    color: #888;
+    color: #bbbbbb;
     font-size: 13px;
 }
 a:hover {
@@ -24,12 +25,12 @@ a:hover {
 header {
     display: flex;
     height: 60px;
-    background-color: #f1f1f1; 
+    background-color: #1f1f1f; 
 }
 header a {
-    color: #333;
+    color: #e0e0e0;
 }
-header  ul {
+header ul {
     width: 100%;
     padding: 15px;
     display: grid;
@@ -37,7 +38,7 @@ header  ul {
     grid-template-rows: 1fr;
     align-items: center;
 }
-header img{
+header img {
     width: 100px;
     height: auto;
 }
@@ -54,6 +55,7 @@ header #back_to_main {
 section {
     height: 75vh;
     padding: 0 40px;
+    background-color: #121212;
 }
 .container form {
     display: grid;
@@ -74,42 +76,46 @@ h2 {
     font-size: 18px;
     font-weight: 400;
     padding: 30px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #333;
 }
 
-h3 { 
+h3 {
     font-size: 16px;
     grid-area: h3;
     font-weight: 400;
+    color: #e0e0e0;
 }
 label {
     font-size: 14px;
+    color: #e0e0e0;
 }
 
 input {
-    width:100%;
+    width: 100%;
     border-radius: 1px;
-    border: 1px solid #d9d9d9;
-    border-top: 1px solid #c0c0c0;
+    border: 1px solid #555;
+    border-top: 1px solid #444;
     font-size: 13px;
     height: 25px;
     padding: 1px 8px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
 }
-.label_item1 { grid-area: label1;}
-.input_item1 { grid-area: input1;}
-.label_item2 { grid-area: label2;}
-.input_item2 { grid-area: input2;}
-.label_item3 { grid-area: label3;}
-.input_item3 { grid-area: input3;}
-.label_item4 { grid-area: label4;}
-.input_item4 { grid-area: input4;}
-.button {   
+.label_item1 { grid-area: label1; }
+.input_item1 { grid-area: input1; }
+.label_item2 { grid-area: label2; }
+.input_item2 { grid-area: input2; }
+.label_item3 { grid-area: label3; }
+.input_item3 { grid-area: input3; }
+.label_item4 { grid-area: label4; }
+.input_item4 { grid-area: input4; }
+.button {
     grid-area: button;  
     justify-self: end;
 }
-.button > input { 
+.button > input {
     color: #eee;
-    border: 1px solid #aaa;
+    border: 1px solid #444;
     line-height: 27px;
     height: 36px;
     cursor: pointer;
@@ -119,37 +125,28 @@ input {
     height: 30px;
 }
 
-
-
-
 /* ------------ Footer -------- */
 footer {
     width: 100%;
     position: fixed;
     bottom: 0;
+    background-color: #1f1f1f;
 }
 .footer1, .footer2 {
-    background: #f7f7f7;
+    background: #1f1f1f;
     padding: 20px 1.5em;
-    
 }
 .footer1 {
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
 }
-.footer1  ul {
+.footer1 ul {
     display: flex;
     align-items: center;
 }
-.footer2  ul {
+.footer2 ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
 }
-
-
-
-
-
-
