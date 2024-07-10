@@ -1,4 +1,5 @@
 /* --------- Defaults ---------*/
+
 body, ul, li, img, p, h1, h2, h3, h4, h5, h6, hr {
     margin: 0;
     padding: 0;
@@ -6,21 +7,17 @@ body, ul, li, img, p, h1, h2, h3, h4, h5, h6, hr {
     background-color: #121212;
     color: #e0e0e0;
 }
-
 li {
     list-style-type: none;
     padding: 0 10px;
 }
-
 a, i {
     text-decoration: none;
-    color: #bbbbbb;
+    color: #888;
     font-size: 13px;
 }
-
 a:hover {
     text-decoration: underline;
-    color: #555; 
 }
 
 /* --------- Header --------- */
@@ -28,25 +25,9 @@ a:hover {
 header {
     display: flex;
     height: 10vh;
-<<<<<<< HEAD
-    align-items: center; 
-    background-color: #fff; 
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /
-=======
     background-color: #1f1f1f;
->>>>>>> origin/yamifourth
 }
-
-header ul {
-    margin-left: auto; 
-    padding: 0 15px;
-}
-
 header a {
-<<<<<<< HEAD
-    color: #333;
-    padding: 10px;
-=======
     color: #e0e0e0;
 }
 header ul {
@@ -56,15 +37,11 @@ header ul {
     justify-content: flex-end;
     align-items: center;
     padding: 0 15px;
->>>>>>> origin/yamifourth
 }
 
 /* --------- Main ------- */
 
 section {
-<<<<<<< HEAD
-    height: calc(100vh - 10vh); 
-=======
     height: 75vh;
     background-color: #121212;
 }
@@ -74,7 +51,7 @@ section {
     display: flex;
     justify-content: center;
 }
-.image_container img {
+.image_container img{
     width: 100%;
     max-width: 271px;
     padding-top: 109px;
@@ -85,98 +62,39 @@ section {
     align-self: flex-end;
     font-size: 16px;
 }
+
 /* ------  Search Bar ----------*/
 .search_bar {
->>>>>>> origin/yamifourth
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-/* -------- Google Image ------- */
-
-.image_container {
-    text-align: center;
-    margin-top: 20px; 
-}
-
-.image_container img {
-    max-width: 100%;
-    height: auto; 
-}
-
-.image_container span {
-    color: #4285f4;
-    font-size: 16px;
-    margin-top: 10px; 
-    display: block;
-}
-
-/* ------  Search Bar ----------*/
-
-.search_bar {
-    text-align: center;
-    margin-top: 30px; 
-}
-
 .search_bar input {
+    outline: none;
     font-size: 16px;
     width: 400px;
     height: 37px;
     border: 1px solid #555;
     border-radius: 30px;
     padding-left: 50px;
-<<<<<<< HEAD
-    margin-top: 10px; 
-}
-
-.search_bar input:hover {
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
-=======
     margin: 30px 0;
     background-color: #1e1e1e;
     color: #e0e0e0;
 }
 .search_bar > input:hover {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
->>>>>>> origin/yamifourth
 }
-
 .search_bar i {
-<<<<<<< HEAD
-    position: absolute;
-    left: 20px; 
-    top: 50%; 
-    transform: translateY(-50%); 
-    color: #888;
-=======
     width: 50px;
     position: relative;
     left: 68px;
     color: #e0e0e0;
->>>>>>> origin/yamifourth
 }
 
 /* ------------ Search Buttons --------*/
 
 .search_buttons {
-<<<<<<< HEAD
-    text-align: center;
-    margin-top: 10px; 
-}
-
-.search_buttons input {
-    border: 1px solid #ccc;
-    margin: 5px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.search_buttons input:hover {
-    background-color: #f2f2f2;
-=======
     display: flex;
     justify-content: center;
 }
@@ -195,45 +113,23 @@ section {
     color: #e0e0e0;
     border: 1px solid #555;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
->>>>>>> origin/yamifourth
 }
 
 p {
     margin-top: 15px;
     font-size: 13px;
-<<<<<<< HEAD
-    color: #888;
-=======
     text-align: center;
     color: #e0e0e0;
->>>>>>> origin/yamifourth
 }
 
 /* ------------ Footer -------- */
-
 footer {
     width: 100%;
     position: fixed;
     bottom: 0;
-<<<<<<< HEAD
-    background-color: #fff; 
-    box-shadow: 0 -2px 4px rgba(0,0,0,0.1); 
-=======
     background-color: #1f1f1f;
->>>>>>> origin/yamifourth
 }
-
 .footer1, .footer2 {
-<<<<<<< HEAD
-    padding: 20px 1.5em;
-    border-top: 1px solid #ddd;
-}
-
-.footer1 ul, .footer2 ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-=======
     background: #1f1f1f;
     padding: 20px 1.5em;
 }
@@ -246,24 +142,8 @@ footer {
     align-items: center;
 }
 .footer2 ul {
->>>>>>> origin/yamifourth
     display: flex;
     justify-content: center;
-}
-<<<<<<< HEAD
-
-.footer2 ul {
     flex-wrap: wrap;
+    align-items: flex-start;
 }
-
-.footer1 a, .footer2 a {
-    color: #888;
-    padding: 5px;
-}
-
-.footer1 a:hover, .footer2 a:hover {
-    text-decoration: underline;
-    color: #555; 
-}
-=======
->>>>>>> origin/yamifourth
